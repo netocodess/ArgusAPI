@@ -31,7 +31,7 @@ Este repositório contém o código fonte da API RESTful para o backend da aplic
 
 - Junit: O JUnit é um framework de testes para a linguagem de programação Java. Ele é usado para escrever e executar testes automatizados para garantir a qualidade do código. Pense nele como um conjunto de ferramentas que ajudam você a verificar se seu código está funcionando como esperado.
 
-## Modelagem de dados 
+## Modelagem de dados
 
 ```mermaid
 erDiagram
@@ -169,27 +169,27 @@ Para ter uma visão mais clara da arquitetura do projeto, acesse esse diagrama: 
 
 1. Acesse a página do download:
 
-    [DONWLOAD O JDK17](https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe)
+   [DONWLOAD O JDK17](https://download.oracle.com/java/17/archive/jdk-17.0.12_windows-x64_bin.exe)
 
-    Esse arquivo já é um instalador padrão para o Windows, então é só seguir com o passo a passo da instalação.
+   Esse arquivo já é um instalador padrão para o Windows, então é só seguir com o passo a passo da instalação.
 
 ### Como instalar o Apache Maven
 
 1. Baixe o arquivo compactado do Maven
 
-    É só acessar esse link aqui: [DOWNLOAD DO .zip DO MAVEN](https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip)
+   É só acessar esse link aqui: [DOWNLOAD DO .zip DO MAVEN](https://dlcdn.apache.org/maven/maven-3/3.9.9/binaries/apache-maven-3.9.9-bin.zip)
 
 2. Escolha uma pasta onde descompactar o arquivo .zip
 
-    Pode ser qualquer pasta, mas é bom ter um local adequado, eu recomendo deixar dentro da pasta de arquivos de programas do seu computador (C:\Program Files\Maven\apache-maven-3.9.9)
+   Pode ser qualquer pasta, mas é bom ter um local adequado, eu recomendo deixar dentro da pasta de arquivos de programas do seu computador (C:\Program Files\Maven\apache-maven-3.9.9)
 
 3. Acrescentando o Maven nas variáveis de ambiente do sistema
 
-    Vá no seu menu iniciar e pesquise por "Sistema", dentro das configurações do sistema procure pela opção "Configurações avançadas do sistema". Uma nova janela se abrirá e nela você deve procurar pela opção "Variáveis de ambiente", uma nova janela deverá se abrir.
+   Vá no seu menu iniciar e pesquise por "Sistema", dentro das configurações do sistema procure pela opção "Configurações avançadas do sistema". Uma nova janela se abrirá e nela você deve procurar pela opção "Variáveis de ambiente", uma nova janela deverá se abrir.
 
-    Na seção inferior da nova janela ficarão as variáveis de ambiente para o seu computador, parte de cima ficam as variáveis somente para o seu usuário atual, você deve procurar pela variável "Path" e editá-la. No menu de edição, selecione "Novo" e cole o endereço até a pasta "bin" do Maven. Para mim ficou dessa forma "C:\Program Files\Maven\apache-maven-3.9.9\bin".
+   Na seção inferior da nova janela ficarão as variáveis de ambiente para o seu computador, parte de cima ficam as variáveis somente para o seu usuário atual, você deve procurar pela variável "Path" e editá-la. No menu de edição, selecione "Novo" e cole o endereço até a pasta "bin" do Maven. Para mim ficou dessa forma "C:\Program Files\Maven\apache-maven-3.9.9\bin".
 
-    Depois disso teste a instalação usando o comando a seguir no terminal:
+   Depois disso teste a instalação usando o comando a seguir no terminal:
 
     ```
     mvn -v
@@ -291,18 +291,3 @@ git commit -m "[descrição concisa das suas alterações]"
 ## Licença:
 
 [GNU General Public License v3.0](./LICENSE.md)
-
-Equipe de Desenvolvimento:
-
-- Ailton Francisco da Silva Neto
-- Breno do nascimento santos
-- Derick Germano de Oliveira
-- Francisco Macedo de Santiago Neto
-- Luan carlos wanderley da silva
-- Ronaldo Rodrigues de Moura Júnior
-
----
-
-## Agradecimentos:
-
-Agradecemos ao programa START pela oportunidade de desenvolver este projeto.
